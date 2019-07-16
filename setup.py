@@ -1,10 +1,10 @@
 import os,json,random,requests,io,praw
 
-r=praw.Reddit(client_id='',
-				   client_secret='',
-				   password='',
-				   user_agent='',
-				   username='')
+r=praw.Reddit(client_id=''
+	      client_secret='',
+	      password='',
+	      user_agent='',
+	      username='')
 
 
 with open('config_template.json','r') as configFile:
